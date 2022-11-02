@@ -1,8 +1,17 @@
 body {
-    background-image:linear-gradient(#FFA8B6, #A28089);
+    background-image: url(https://images5.alphacoders.com/480/480537.png);
 }
 #nav-bar {
     overflow: hidden;
+}
+.home {
+    color: #20C20E;
+}
+#whole {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
@@ -29,13 +38,21 @@ ul {
   }
   #home {
     text-align: center;
+    min-height: 100vh;
   }
   h1 {
     padding: 10px 300px 10px 300px;
+    margin-top: 30px;
+    color: #20C20E;
   }
-  p {
+  .bio{
     padding: 10px 300px 10px 300px;
+    margin-top: 550px;
+    margin-bottom: 550px;
     font-size: 150%;
+    color: #20C20E;
+    background-color: black;
+    justify-content: center;
   }
   .sticky {
     position: fixed;
@@ -44,4 +61,4 @@ ul {
     top: 0;
     z-index: 100;
     border-top: 0;
-  }
+  } 
