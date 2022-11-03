@@ -1,11 +1,11 @@
 $(() => {
     
-    $(document).ready(function() {
+    $(document).ready(() => {
         // grab the initial top of the navigation 
            const stickyNavTop = $('#nav-bar').offset().top;
            
            // our function that decides wether the navigation bar should have "fixed" css position or not.
-           const stickyNav = function(){
+           const stickyNav = () => {
             const scrollTop = $(window).scrollTop(); // our current vertical position from the top
                  
             // if we've scrolled more than the navigation, change its position to fixed to stick to top,
@@ -19,25 +19,25 @@ $(() => {
 
         stickyNav();
         // and run it again every time you scroll
-        $(window).scroll(function() {
+        $(window).scroll(() => {
             stickyNav();
         });
 
 });
 //Stack overflow for carousel
-jQuery(document).ready(function ($) {
+jQuery(document).ready(($) => {
 
-    var interval;
-    interval = setInterval(function () {
+    let interval;
+    interval = setInterval(() => {
       moveRight();
     }, 3000);
   
-    $('._slider').mouseover(function(){
+    $('._slider').mouseover(() => {
       clearInterval(interval);
     });
     
-    $('._slider').mouseleave(function(){
-      interval = setInterval(function () {
+    $('._slider').mouseleave(() => {
+      interval = setInterval(() => {
         moveRight();
         }, 3000);
     });
@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
       
       $('._slider ul li:last-child').prependTo('._slider ul');
   
-      function moveLeft() {
+      const moveLeft = () => {
           $('._slider ul').animate({
               left: + slideWidth
           }, 200, function () {
@@ -62,21 +62,21 @@ jQuery(document).ready(function ($) {
           });
       };
   
-      function moveRight() {
+      const moveRight = () => {
           $('._slider ul').animate({
               left: - slideWidth
-          }, 200, function () {
+          }, 200, () => {
               $('._slider ul li:first-child').appendTo('._slider ul');
               $('._slider ul').css('left', '');
           });
       };
   
-      $('._slider_prev').click(function () {
+      $('._slider_prev').click(() => {
           moveLeft();
           return false;
       });
   
-      $('._slider_next').click(function () {
+      $('._slider_next').click(() => {
           moveRight();
           return false;
       });
