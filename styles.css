@@ -1,17 +1,17 @@
 body {
-    background-image: url(https://images5.alphacoders.com/480/480537.png);
+    background-image: url(https://techcareeradvisors.com/wp-content/uploads/2022/05/Junior-Developer-Recruiting-780x405-1.jpg);
 }
 #nav-bar {
     overflow: hidden;
 }
 .home {
-    color: #20C20E;
+    color: White;
 }
 #whole {
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    align-content: center;
 }
 
 ul {
@@ -43,15 +43,14 @@ ul {
   h1 {
     padding: 10px 300px 10px 300px;
     margin-top: 30px;
-    color: #20C20E;
+    color: white;
   }
   .bio{
     padding: 10px 300px 10px 300px;
     margin-top: 550px;
     margin-bottom: 550px;
     font-size: 150%;
-    color: #20C20E;
-    background-color: black;
+    color: white;
     justify-content: center;
   }
   .sticky {
@@ -62,3 +61,104 @@ ul {
     z-index: 100;
     border-top: 0;
   } 
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #119998);
+  background-image: -moz-linear-gradient(top, #11CDD4, #119998);
+  background-image: -ms-linear-gradient(top, #11CDD4, #119998);
+  background-image: -o-linear-gradient(top, #11CDD4, #119998);
+  background-image: linear-gradient(to bottom, #11CDD4, #119998);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #66bfbf;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.contact-me{
+  text-align: center;
+  color: #EAF6F6;
+}
+a{
+  color: #11999e;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 100px 0;
+}
+
+
+a:hover{
+  color: #EAF6F6;
+}
+._slider {
+  position: relative;
+  overflow: hidden;
+  margin-left: 15px;
+  
+}
+
+  	._slider_next, ._slider_prev :hover {
+  		display: block;
+  	}
+
+  
+  
+  ._next,._prev:hover  {
+    position: absolute;
+    top: 35%;
+    z-index: 999;
+    display: none;
+    width: auto;
+    height: auto;
+    padding: 2% 4%;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2em;
+    opacity: 0.8;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.2s ease;
+    }
+    
+
+  ._next ul li {
+    right: 0;
+    position: relative;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+      float: left;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      background: #ccc;
+      display: block;
+      width: 500px;
+      line-height: 200px;
+      text-align: center;
+    }
+  
+
