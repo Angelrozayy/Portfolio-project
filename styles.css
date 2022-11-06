@@ -7,12 +7,6 @@ body {
 .home {
     color: White;
 }
-#whole {
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    align-content: center;
-}
 
 ul {
     list-style-type: none;
@@ -44,14 +38,16 @@ ul {
     padding: 10px 300px 10px 300px;
     margin-top: 30px;
     color: white;
+    text-align: center;
   }
   .bio{
-    padding: 10px 300px 10px 300px;
-    margin-top: 550px;
-    margin-bottom: 550px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 200px;
+    margin-bottom: 2000px;
     font-size: 150%;
     color: white;
     justify-content: center;
+    background-color: #000;
   }
   .sticky {
     position: fixed;
@@ -63,10 +59,10 @@ ul {
   } 
 .btn {
   background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #119998);
-  background-image: -moz-linear-gradient(top, #11CDD4, #119998);
-  background-image: -ms-linear-gradient(top, #11CDD4, #119998);
-  background-image: -o-linear-gradient(top, #11CDD4, #119998);
+  background-image: linear-gradient(top, #11CDD4, #119998);
+  background-image: linear-gradient(top, #11CDD4, #119998);
+  background-image: linear-gradient(top, #11CDD4, #119998);
+  background-image: linear-gradient(top, #11CDD4, #119998);
   background-image: linear-gradient(to bottom, #11CDD4, #119998);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
@@ -80,10 +76,10 @@ ul {
 
 .btn:hover {
   background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
@@ -117,7 +113,7 @@ a:hover{
   
 }
 
-  	._slider_next, ._slider_prev :hover {
+._slider_next, ._slider_prev :hover {
   		display: block;
   	}
 
@@ -143,22 +139,27 @@ a:hover{
     }
     
 
-  ._next ul li {
-    right: 0;
-    position: relative;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-      float: left;
-      margin: 0;
-      padding: 0;
-      position: relative;
-      background: #ccc;
-      display: block;
-      width: 500px;
-      line-height: 200px;
-      text-align: center;
-    }
-  
-
+._next ul li {
+   right: 0;
+   position: relative;
+   height: 500px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   float: left;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   background: #ccc;
+   display: block;
+   width: 500px;
+   line-height: 200px;
+   text-align: center;
+  }
+  .contact-me {
+    margin-top: 300px;
+  }
+ #project {
+  display: flex;
+  justify-content: center;
+ }

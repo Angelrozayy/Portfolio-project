@@ -24,7 +24,7 @@ $(() => {
         });
 
 });
-//Stack overflow for carousel
+//stack overflow helped
 jQuery(document).ready(($) => {
 
     let interval;
